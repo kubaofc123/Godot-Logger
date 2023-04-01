@@ -1,6 +1,5 @@
-@tool
 class_name Logger
-extends EditorPlugin
+extends Node
 
 enum LogVerbosity {Error = 0, Warning = 1, Log = 2, Verbose = 3, VeryVerbose = 4}
 
