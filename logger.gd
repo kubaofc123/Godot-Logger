@@ -20,7 +20,7 @@ static func LOG(Context : Node, Category : String, Verbosity : LogVerbosity, Tex
 		if Context.multiplayer.is_server():
 			finalString = "[" + timeString + "] " + _LogVerbosity_to_string(Verbosity) + " " + Category + ": SERVER: " + str(Context) + ": " + Text
 		else:
-			finalString = "[" + timeString + "] " + _LogVerbosity_to_string(Verbosity) + " " + Category + ": CLIENT " + str(Context.multiplayer.get_unique_id()) + ": " + Text
+			finalString = "[" + timeString + "] " + _LogVerbosity_to_string(Verbosity) + " " + Category + ": CLIENT " + str(Context.multiplayer.get_unique_id()) + ": " + str(Context) + ": " + Text
 	else:
 		finalString = "[" + timeString + "] " + _LogVerbosity_to_string(Verbosity) + " " + Category + ": " + str(Context) + ": " + Text
 	
