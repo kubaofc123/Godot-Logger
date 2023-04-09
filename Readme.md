@@ -9,13 +9,13 @@ How to use:
 
 Final console output will look like this:
 
-`[2023-03-25T20:02:49:2] Log LogTemp: Test log text`
+`[2023-03-25T20:02:49:2] Log LogTemp: node_1:<Node#36775658709>: Test log text`
 
 `[2023-03-25T20:02:49:2] Log LogTemp: SERVER: node_1:<Node#36775658709>: Test log text`
 
 `[2023-03-25T20:02:49:2] Log LogTemp: CLIENT 12345: node_1:<Node#36775658709>: Test log text`
 
-`{date/time} {Verbosity} {Category} {Server/Client/None} {Message}`
+`{date/time} {Verbosity} {Category} {Server/Client/None} {Context} {Message}`
 
 
 Configuration:
